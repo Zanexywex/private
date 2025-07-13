@@ -1,8 +1,6 @@
 --cr https://raw.githubusercontent.com/MappleGaming208/Magic/main/Scripts/lua/zzerexx/Internal_UI.lua
-
 if game:GetService("CoreGui").RobloxGui:FindFirstChild("FakeInternal") then
-    game:GetService("CoreGui").RobloxGui:FindFirstChild("FakeInternal"):Destroy()
-    print("Internal Reset")
+    return
 end
 
 local FakeInternal = Instance.new("ScreenGui")
